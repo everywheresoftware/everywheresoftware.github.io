@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.mstyled{
+    position: fixed;
+    backdrop-filter: blur(20px);
+    height: 100%;
+    width: 100%;
+}
+.box
+{
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    background-color: #00000025;
+    backdrop-filter: blur(35px);
+    border-radius: 10px;
+    left: 23%;
+    top: 2cm;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 1;
+}
+.soon{
+    color: whitesmoke;
+    position: absolute;
+    font-size: xx-large;
+    left: 35%;
+    top: 70%;
+    z-index: 3;
+}
+.brand_logo{
+    position: absolute;
+    left: 8.5cm;
+    top: 4.5cm;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    z-index:4;
+}
+.Links{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 30px;
+    left: 36%;
+    top: 80%;
+    z-index: 3;
+}
